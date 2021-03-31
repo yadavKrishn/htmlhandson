@@ -1,0 +1,317 @@
+Exercise 1.1
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Address Book</h2>
+
+<form action="/action_page.php">
+  <label for="Name">Name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Enter name"><br>
+ 
+<label for "Address">Address:</label><br>
+<input type ="text" id="Address" name="Address" placeholder="Enter Do.No"><br>
+<input type ="text" id="Address" name="Address" placeholder="Enter Area Name"><br>
+
+
+<label for "City">City:</label><br>
+<input type ="text" id="City" name="City" placeholder="Enter city"><br>
+
+<label for "PostalCode">Postalcode:</label><br>
+<input type ="text" id="PostalCode" name="PostalCode" placeholder="Enter postalCode"><br>
+  
+
+<label for="TransportMode">Choose a TransportMode:</label>
+  <select name="TransportMode" id="TransportMode">
+    <option value="Bus">Bus</option>
+    <option value="Car">Car</option>
+    <option value="Cyclel">Cyclel</option>
+    <option value="other">other</option>
+  </select>
+  <br><br>
+
+<label for ="Skillsets">Skillsets:<label><br>
+<input type="checkbox" id="Skillsets" name="Skillsets" value="Skillsets">
+  <label for="Skillsets"> C</label><br>
+<input type="checkbox" id="Skillsets" name="Skillsets" value="Skillsets">
+   <label for="Skillsets"> C++</label><br>
+  <input type="checkbox" id="Skillsets" name="Skillsets" value="Skillsets">
+   <label for="Skillsets"> Java</label><br>
+  <input type="checkbox" id="Skillsets" name="Skillsets" value="Skillsets">
+   <label for="Skillsets"> Python</label><br>
+
+<label for="Email">Email:</label><br>
+ <input type="text" id="Email" Email="Email" placeholder="Enter name"><br>
+
+<label for"About yourself">About yourself:</label><br>
+<input type="text" name="n1" value="" size="100"
+maxlength-"200" autocomplete="on" autofocus required
+pattern"[A-Za-z]" placeholder="Write about yourself"><br/>
+
+
+<label for="Register">Register:</label><br>
+
+<input type ="submit" formaction="file:///C:\JAVA_EXAMPLES/Thank You.html"><br>
+
+ 
+<label for="Reset">Reset:</label><br>
+  <input type="Reset" value="Reset">
+
+ 
+  
+</form> 
+
+
+</body>
+</html>
+
+</hr>
+
+
+Exercise 1.3
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Registration Form</h2>
+
+<form action="/action_page.php">
+<label for="User ID">User ID:</label>
+<input type="text" id="USER ID" User ID="User ID" placeholder="Enter User ID"><br><br>
+
+ <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="Enter first Name"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Enter Last Name"><br><br>
+
+<label for "Address">Address:</label>
+<input type ="text" id="Address" name="Address" placeholder="Enter Do.No">
+<input type ="text" id="Address" name="Address" placeholder="Enter Area Name"><br><br>
+
+<label for "Country">Country:</label>
+<input type="text" id="Country" name="Country" ><br><br>
+
+<label for "Phone">Phone:</label>
+<input type="text" id="Phone" name="Phone" placeholder="Enter valid phone number" ><br><br>
+
+<label for "Zip Code">Zip Code:</label>
+<input type="text" id="Zip Code" name="Zip Code"  ><br><br>
+
+
+<pre> Gender:</pre>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+
+
+<label for="Register">Register:</label>
+
+<input type ="submit" formaction="file:///C:\JAVA_EXAMPLES/submit.html"><br><br>
+
+ 
+<label for="Reset">Reset:</label>
+  <input type="Reset" value="Reset">
+
+ 
+  
+</form> 
+
+
+</body>
+</html>
+
+
+
+
+
+
+Exercise 1.4
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Basic HTML Table</h2>
+
+<table style="width:50%">
+  <tr>
+    <th>Planet Name</th>
+    <th>Year Length</th> 
+    <th>Day Length</th>
+  </tr>
+  <tr>
+    <td>Mercury</td>
+    <td>88 days</td>
+    <td>59 days</td>
+  </tr>
+  <tr>
+    <td>Venus</td>
+    <td>225 days</td>
+    <td>243 days</td>
+  </tr>
+  <tr>
+    <td>Earth</td>
+    <td>365 days</td>
+    <td>24 hrs</td>
+  </tr>
+<tr>
+    <td>Mars</td>
+    <td>765 days</td>
+    <td>24.6 hrs</td>
+  </tr>
+</table>
+
+</body>
+</html>
+</br></br>
+
+Exercise 1.5
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An unordered HTML list</h2>
+
+<label for="Ordered List">Choose a Ordered List:</label>
+  <select name="Ordered List" id="Ordered List">
+    <option value="Circle">Circle</option>
+    <option value="Square">square</option>
+    <option value="Moon">Moon</option>
+    
+  </select>
+  <br><br>
+
+
+<ul>
+  <li>One</li>
+  <li>Two</li>
+  <li>Three</li>
+</ul>  
+
+</body>
+</html>
+
+
+Exercise 1.6
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+<b>HTML</b> (Hypertext Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables..
+</p>
+
+<p>
+<b>CSS</b> is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.<b> CSS</b> is independent of <b>HTML</b> and can be used with any XML-based markup language.
+</p>
+
+
+<b>HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content</b><br><br>
+<hr style="width:100%;text-align:left;margin-left;color-red:0"><br></br>
+<style>
+p {text-align: center;}
+</style>
+<p> CSS is the language for describing the presentation of Web pages</p><br></br>
+
+<img src="img_india.jpg" alt="india" width="460" height="345">
+
+
+
+</body>
+</html>
+
+</body>
+</html>
+
+
+
+Exercise 1.7
+
+
+<p><i>Structured Query Language (SQL) is the standard and most widely used programming language for relational databases.</i></p>
+
+<p style="color:blue;">Structured Query Language (SQL) is the standard and most widely used programming language for relational databases.</p>
+</p>
+
+
+<a href="mailto:rbsd37rbs@gmail.com">Send mail</a>
+
+<style>
+html, body {
+  height: 300%;
+}
+
+img.one {
+  height: auto;
+  width: auto;
+}
+
+img.two {
+  height: 300%;
+  width: 300%;
+}
+
+</style>
+
+<img src="img_india.jpg" alt="india" width="460" height="345">
+
+
+Exercise 1.8
+
+
+<label for"About yourself">About yourself:</label><br><br>
+<input type="text" name="n1" value="" size="100"
+maxlength-"200" autocomplete="on" autofocus required
+pattern"[A-Za-z]" placeholder="Write about yourself"><br/><br><br>
+
+<label for="Hobbies">Hobbies:</label>
+ 
+  <br><br>
+
+<ul>
+  <li>Playing chess</li>
+  <li>dancing</li>
+  <li>cooking</li>
+</ul>  
+
+<label for="Subjects that interests">Subjects that interests:</label>
+ 
+  <br><br>
+
+<ul>
+  <li>Maths</li>
+  <li>Science</li>
+  <li>Social</li>
+</ul>  
+
+<a href="google.com">google.com</a><br><br>
+
+<hr style="width:100%;height:15px;text-align:left;margin-left;color-red:0"><br></br>
+
+
+
+Exercise 1.9
+
+<label for="Login">Login:</label><br>
+  <input type="text" id="Login" Login="Login" placeholder="Enter Login detials"><br><br>
+
+<label for="Password">Password:</label><br>
+  <input type="text" id="Password" Password="Password" placeholder="Enter Password"><br><br>
+
+
+<input type ="submit" formaction="file:///C:\JAVA_EXAMPLES/Thank You.html.html">
+
+ 
+  <input type="Reset" value="Reset">
+
+
